@@ -35,6 +35,47 @@
 - Adding to cart : After clicking 'add to cart' button will add the specific product to the cart and will show toast notification on the top , Wishlist button works same as 'add to cart' button
 - Disallow adding duplicate item to the CART & WISHLIST : User will not be able to add same item twice in the cart & wishlist , if try it show error notification on the top.
 - Customer Feedback :The website features a section for customer feedback, which helps users learn from other users' experiences with the service.The website includes a dedicated customer feedback section that enables users to gain valuable insights from the experiences of others with the service.
+# Project Dependencies and DevDependencies
+
+This document provides an overview of the dependencies and devDependencies used in the project.
+
+## Dependencies
+
+These packages are required for the core functionality of the project:
+
+- **localforage (`^1.10.0`)**: A JavaScript library for offline storage, supporting IndexedDB, WebSQL, and localStorage.
+- **match-sorter (`^7.0.0`)**: A library for filtering and sorting arrays of objects based on search queries.
+- **react (`^18.3.1`)**: A JavaScript library for building user interfaces.
+- **react-dom (`^18.3.1`)**: Provides DOM-specific methods that can be used with React.
+- **react-hot-toast (`^2.4.1`)**: A library for adding beautiful and customizable toast notifications.
+- **react-icons (`^5.3.0`)**: A collection of popular icons to use in React applications.
+- **react-router-dom (`^6.27.0`)**: A library for handling routing in React applications.
+- **recharts (`^2.13.3`)**: A charting library for React to create various types of data visualizations.
+- **sort-by (`^1.2.0`)**: A utility for sorting arrays of objects by property.
+
+## DevDependencies
+
+These packages are used during development for tooling, linting, and build optimizations:
+
+- **@eslint/js (`^9.13.0`)**: Provides ESLint configurations and rules for JavaScript linting.
+- **@types/react (`^18.3.12`)**: TypeScript definitions for React.
+- **@types/react-dom (`^18.3.1`)**: TypeScript definitions for React DOM.
+- **@vitejs/plugin-react (`^4.3.3`)**: A Vite plugin for React applications, enabling fast builds and live reloading.
+- **autoprefixer (`^10.4.20`)**: A tool for adding vendor prefixes to CSS, ensuring compatibility across browsers.
+- **daisyui (`^4.12.14`)**: A Tailwind CSS component library for building responsive and beautiful designs.
+- **eslint (`^9.13.0`)**: A JavaScript linter for identifying and fixing problematic code patterns.
+- **eslint-plugin-react (`^7.37.2`)**: ESLint rules specific to React.
+- **eslint-plugin-react-hooks (`^5.0.0`)**: Linter rules for ensuring proper usage of React hooks.
+- **eslint-plugin-react-refresh (`^0.4.14`)**: ESLint plugin for React Fast Refresh to enable faster development cycles.
+- **globals (`^15.11.0`)**: A list of global variables for linting configurations.
+- **postcss (`^8.4.47`)**: A tool for transforming CSS using JavaScript plugins.
+- **tailwindcss (`^3.4.14`)**: A utility-first CSS framework for building custom designs efficiently.
+- **vite (`^5.4.10`)**: A fast build tool and development server optimized for modern JavaScript frameworks.
+
+These dependencies ensure the project is robust, easy to maintain, and optimized for development and production.
+ 
+ ## Run this command to install dependencies
+`  npm i  `
 
 # 🚀 Links
 
